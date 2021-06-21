@@ -1,9 +1,4 @@
 # 2Pump_10Valve_Pneumatic_System
- 
-## Technologies
-Matlab R2020a or newer +
-Arduino IDE 1.8.13
-Teensyduino Software Version 1.53
 
 
 ## Table of contents
@@ -12,6 +7,10 @@ Teensyduino Software Version 1.53
 * [Setup](#setup)
 
 ## General info
+Outside            |  Inside
+:-------------------------:|:-------------------------:
+![](https://github.com/sihanwang-srl/2Pump_10Valve_Pneumatic_System/blob/main/WeChat%20Image_20210621152004.jpg)  |  ![](https://github.com/sihanwang-srl/2Pump_10Valve_Pneumatic_System/blob/main/WeChat%20Image_20210621151927.jpg)
+
 This project is used to interact with the penumatic system in Soft Robotics Lab, Oxford Robotics Institute. The system involves a 500 mL resovoir, a 5V pump bringing air in for positive pressure setting, a 12 V pump bringing air out for negative pressure setting, 10 solenoid valves and 10 pressure sensors. This enables the system to control the pressure of 10 independent chambers, although their pressures cannot be set simultaneously. The graphical user intarface enables the user to manually control each pump and valve in the system, as well as set the pressure of each specific chamber automatically (PID Control). The readings given by all pressure sensors can be recorded in Matlab with a sampling rate of ~5800Hz. 
 	
 ## Technologies
